@@ -1,3 +1,13 @@
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    # Ensure this line is present if LibraryProject is treated as an app:
+    # 'LibraryProject', 
+]
 """
 Django settings for LibraryProject project.
 
